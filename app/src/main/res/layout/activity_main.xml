@@ -15,12 +15,33 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/textView"
-        android:layout_marginTop="19dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
         android:contentDescription=""
         app:srcCompat="@drawable/coal"
         tools:ignore="ContentDescription,UnknownId" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oh_no"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_i_m_poor"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
 
 </RelativeLayout>
